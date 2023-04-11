@@ -34,7 +34,7 @@ st.markdown('<p class="big-font">DataSet Analysis !!</p>', unsafe_allow_html=Tru
 
 location='location'
 DATA_URL=(
-    "saudi.csv"
+    "linkedin-jobs-usa.csv"
 )
 @st.cache(persist=True)
 def load_data(nrows):
