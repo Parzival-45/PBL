@@ -34,7 +34,7 @@ st.markdown('<p class="big-font">DataSet Analysis !!</p>', unsafe_allow_html=Tru
 
 location='location'
 DATA_URL=(
-    "linkedin-jobs-usa.csv"
+    "saudi.csv"
 )
 @st.cache(persist=True)
 def load_data(nrows):
@@ -82,7 +82,7 @@ functions.space()
 
 use_defo = st.checkbox('Initiate Dataset')
 if use_defo:
-    dataset = 'saudi.csv'
+saudi.csv'
 
 
 st.sidebar.header('Initiate Dataset to Use Available Features: 👉')
